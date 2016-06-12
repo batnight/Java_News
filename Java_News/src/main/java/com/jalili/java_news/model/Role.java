@@ -2,7 +2,7 @@
 package com.jalili.java_news.model;
 
 
-class Role {
+public class Role {
     private long id;
     private String roleName;
 

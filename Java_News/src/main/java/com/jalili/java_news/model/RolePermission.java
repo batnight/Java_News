@@ -2,7 +2,7 @@
 package com.jalili.java_news.model;
 
 
-class RolePermission {
+public class RolePermission {
     private long id;
     private Role role;
     private boolean canBanUnban;
