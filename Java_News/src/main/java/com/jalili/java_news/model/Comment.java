@@ -41,7 +41,7 @@ public class Comment {
         this.comment = comment;
     }
 
-    public boolean isIsEnable() {
+    public boolean getIsEnable() {
         return isEnable;
     }
 
