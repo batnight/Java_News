@@ -12,7 +12,7 @@ public class News {
     private String contex;
     private User user;
     private Date createdDate;
-    private byte[] image;
+    private String image;
 
     public long getId() {
         return id;
@@ -70,11 +70,11 @@ public class News {
         this.createdDate = createdDate;
     }
 
-    public byte[] getImage() {
+    public String getImage() {
         return image;
     }
 
-    public void setImage(byte[] image) {
+    public void setImage(String image) {
         this.image = image;
     }
     
